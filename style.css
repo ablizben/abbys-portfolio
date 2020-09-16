@@ -1,0 +1,235 @@
+body {
+    background-color: #101214;
+    color: #101214;
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.icons, h1, p, .navigation {
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.icons {
+    margin-top: 185px;
+}
+
+.verticalLine {
+    border-left: thin solid black;
+  }
+
+a {
+    color: black;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid black;
+    margin-top: 200px;
+    padding: 45px;
+    margin-right: 20px;
+    font-size: 21px;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+    margin-top: 200px;
+    font-size: 25px;
+    padding: 45px;
+} 
+
+.flex-childSecond {
+    flex: 1;
+    border: 2px solid black;
+    margin-top: 45px;
+    padding: 15px;
+    margin-right: 20px;
+    font-size: 18px;
+}  
+
+.flex-childThird {
+    flex: 1;
+    border: none !important;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.aboutMeTitle {
+    border-style: solid;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.skillsTitle {
+    border-style: solid;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.leftColumn {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    float: left;
+
+}
+
+.rightColumn {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    float: right;
+}
+
+.skillBlocks, .skillsTitle, .aboutMeTitle, .aboutMeBlurb {
+    border: thin solid lightgray;
+    text-align: center;
+    padding: 5px;
+    background-color: lightgray;
+    box-shadow: 5px 5px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: center;
+    margin-top: 175px;
+    margin-left: 250px;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+
+  }
+
+  .codeType {
+      font-size: 12px;
+  }
+
+  img {
+    width: 225px;
+    height: 250px;
+  }
+
+  .containerProjects ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .containerProjects ul li {
+    list-style: none;
+    flex: 0 0 29%;
+    text-align: center;
+    margin-top: 150px;
+    border: solid black;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px;
+    background-color: lightgray;
+    margin-bottom: -175px;
+  }
+
+
+  .containerProjects2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .containerProjects2 ul li {
+    list-style: none;
+    flex: 0 0 29%;
+    text-align: center;
+    margin-top: 200px;
+    border: solid black;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px;
+    background-color: lightgray;
+  }
+
+  .containerProjects3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .containerProjects3 ul li {
+    list-style: none;
+    flex: 0 0 29%;
+    text-align: center;
+    margin-top: 200px;
+    border: solid black;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px;
+    background-color: lightgray;
+  }
+
+.projectTitles {
+    font-size: 25px;
+}
+
+.containerContact {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 150px;
+    border: solid black;
+    background: lightgray;
+}
+
+.bottomIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.aboutMeFooter {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 46%;
+}
+
+.arrowHeader {
+    display: flex;
+    margin-left: 46%;
+}
+
+
+
+/* media queries */
+@media(max-width:780px){
+
+    .navigation {
+        font-size: 15px;
+    }
+
+
+}
