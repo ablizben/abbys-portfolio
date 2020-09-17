@@ -5,7 +5,16 @@ body {
     background-repeat: no-repeat;
     background-size: 1600px 1000px;
     font-family: 'Kumbh Sans', sans-serif;
+    margin-left: 5%
 
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 45px;
 }
 
 .icons, h1, p, .navigation {
@@ -202,6 +211,7 @@ a {
     margin-top: 150px;
     border: solid black;
     background: lightgray;
+    margin-right: 5%;
 }
 
 .bottomIcon {
@@ -224,12 +234,27 @@ a {
 
 
 
-/* media queries */
-@media(max-width:780px){
+/*Media Queries*/
+@media screen and (max-width: 992px) {
+ .navigation {
+     font-size: 14px;
+ }
+ .arrowHeader {
+    display: flex;
+    margin-left: 40%;
+}
 
-    .navigation {
-        font-size: 15px;
-    }
+h1 {
+    font-size: 15px;
+}
 
+p {
+    font-size: 10px;
+}
 
 }
+
+  
+  @media screen and (max-width: 600px) {
+
+  }
