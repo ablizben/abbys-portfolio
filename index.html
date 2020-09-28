@@ -6,33 +6,165 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="./favicon-32x32.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 
-    <title>Abby Benjamin</title>
+    <title>Abby Benjamin | Front End Developer</title>
 
 </head>
 <body>
-    <div class="container">
-        <div class="icons">
-            <a href="https://twitter.com/ablizben"><i class="fab fa-twitter fa-3x" style="color:black"></i></a> &nbsp;&nbsp;
-            <a href="https://github.com/ablizben"><i class="fab fa-github fa-3x" style="color:black"></i></a> &nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/abigail-benjamin-b1a881154/"><i class="fab fa-linkedin fa-3x" style="color:black"></i></a>
-        </div>
-        <div>
-            <h1>hi, I'm abby</h1>
-        </div>
-        <div>
-            <p class="secondLine">I'm a web developer who loves building things and watching them come to life.</p>
-        </div>
-        <div class="navigation">
-            <a href="aboutme.html">About Me</a> &nbsp; &nbsp;
-            <div class="verticalLine"><a href="projects.html">Projects</a></div> &nbsp; &nbsp;
-            <div class="verticalLine"><a href="contactme.html">Contact Me</a></div>  
+
+<!-- HOME/NAVIGATION PAGE -->
+    <div class="navContainer">
+        <div class="col-12-md">
+            <div class="row" id="icons">
+                <a href="https://twitter.com/ablizben"><i class="fab fa-twitter fa-3x" style="color:black" id="twitter"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://github.com/ablizben"><i class="fab fa-github fa-3x" style="color:black" id="github"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/abigail-benjamin-codes/"><i class="fab fa-linkedin fa-3x" style="color:black" id="linkedin"></i></a>
+            </div>
+            <div class="row">
+                <h1>hi, I'm abby</h1>
+            </div>
+            <div class="row">
+                <p class="navDescription">I'm a front-end developer who loves building things and watching them come to life.</p>
+            </div>
+            <div class="row" id="navigation">
+                <button id="moveToAboutMe">About Me&nbsp;&nbsp; <span class="line">|</span></button> 
+                <button id="moveToProjects">Projects&nbsp;&nbsp; <span class="line">|</span></button>
+                <button id="moveToContact">Contact Me&nbsp;</button>
+            </div>
         </div>
     </div>
 
 
-    <footer class="bottomIcon"><a href="aboutme.html"><i class="fas fa-chevron-down fa-3x"></a></i></footer>
+ <!-- ABOUT ME PAGE -->
+    <div class="aboutMeContainer">
+
+        <div class="col-12-md" id="aboutMe">
+            <div class="row" id="aboutMeTitle">
+                About Me
+            </div>
+            <div class="row" id="aboutMeParagraph"> 
+                Hi, there! I'm a web developer that is currently in a full stack web development boot camp 
+                through Trilogy and Johns Hopkins University. I'm excited to continue to learn as I dive deeper into coding.
+            </div>
+        </div>
+        <div class="col-12-md" id="skills">
+            <div class="row" id="skillsTitle">
+                Skills
+            </div>
+                <div class="col-12-sm" id="skillsLeft">
+                    <div class="row" id="skill1">
+                        HTML5
+                    </div>
+                    <div class="row" id="skill2">
+                        CSS3
+                    </div>
+                    <div class="row" id="skill3">
+                        JavaScript
+                    </div>
+                    <div class="row" id="skill4">
+                        Node
+                    </div>
+                </div>
+                <div class="col-12-sm" id="skillsRight">
+                    <div class="row" id="skill5">
+                        Express
+                    </div>
+                    <div class="row" id="skill6">
+                        React
+                    </div>
+                    <div class="row" id="skill7">
+                        MySQL
+                    </div>
+                    <div class="row" id="skill8">
+                        MongoDB
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+<!-- PROJECT PAGE -->
+    <div class="projectsContainer">
+        <div class="col-12-md" id="projectOne">
+            <div class="row" id="projectName">
+                Scheduler
+            </div>
+            <div class="row" id="codeNames">
+                HTML • CSS • jQuery
+            </div>
+            <div class="row">
+                <img src="scheduler.png" alt="Scheduler">
+            </div>
+            <div class="row">
+                <br>
+                <a href="https://ablizben.github.io/scheduler/">App</a>
+                <a href="https://github.com/ablizben/scheduler">Code</a>
+            </div>
+        </div>
+
+        <div class="col-12-md" id="projectTwo">
+            <div class="row"id="projectName">
+                What's On The Menu?
+            </div>
+            <div class="row"id="codeNames">
+                HTML • CSS • jQuery
+            </div>
+            <div class="row">
+                <img src="whatsonthemenu.png" alt="What's On The Menu">
+            </div>
+            <div class="row">
+                <br>
+                <a href="https://siminski.co/diet-search/">App</a>
+                <a href="https://github.com/siminski/diet-search">Code</a>
+            </div>
+        </div>
+
+        <div class="col-12-md" id="projectThree">
+            <div class="row"id="projectName">
+                The Habit Tracker
+            </div>
+            <div class="row"id="codeNames">
+                Node • MySQL • jQuery
+            </div>
+            <div class="row">
+                <img src="habittracker.png" alt="Habit Tracker">
+            </div>
+            <div class="row">
+                <br>
+                <a href="https://thomas-abby-dada-jessica.herokuapp.com/">App</a>
+                <a href="https://github.com/tmylesc/Habit-Tracker">Code</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT ME -->
+
+    <div class="contactContainer">
+        <div class="col-12-md">
+            <div class="row">
+                <h1>Contact Me!</h1>
+            </div> 
+            <br>
+            <br>
+            <div class="row">
+                <strong>Email:</strong> ablizben@gmail.com
+            </div>
+            <br>
+            <div class="row">
+                <strong>Phone Number:</strong> 301-268-7697
+            </div>
+        </div>
+    
+    </div>
+
+
+
+
+
+    <script  src="main.js"></script>
+    
 </body>
 </html>
