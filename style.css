@@ -122,6 +122,13 @@ button {
 }
 
 
+
+/*Contact Me Page*/
+
+.contactContainer {
+    padding:20px;
+}
+
 /* Projects Page*/
 #projectOne, #projectTwo, #projectThree {
     width: 50%;
@@ -153,14 +160,103 @@ img {
 
 /*Media Queries*/
 @media screen and (max-width: 992px) {
-   
-   h1 {
-       font-size: 30px;
-   }
-   
-   p {
-       font-size: 18px;
-   }
-   
-   }
+    h1 {
+      text-align: center;
+      vertical-align: middle;
+      line-height: 90px;
+      font-size: 40px;
+    }
 
+    #aboutMe, #skills {
+        display: block;
+        width: 50%;
+        border: thin solid black;
+        text-align: center;
+        padding: 15px;
+        margin: 6;
+    }
+    
+    .projectsContainer {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    #projectOne, #projectTwo, #projectThree {
+        border: thin solid lightgray;
+        text-align: center;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px 5px rgba(0,0,0,.12);
+        margin: 6;
+      
+    }
+
+
+    img {
+        width: 125px;
+        height: 150px;
+        border: solid black;
+      }
+    
+    #projectName {
+        padding: 15px;
+        font-size: 25px;
+    }
+    
+    #codeNames {
+        padding:10px;
+        font-size: 12px;
+    }
+      
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    h1 {
+      text-align: center;
+      vertical-align: middle;
+      line-height: 90px;
+      font-size: 32px;
+    }
+
+    #aboutMe, #skills {
+        display: block;
+        width: 50%;
+        border: thin solid black;
+        text-align: center;
+        padding: 15px;
+        margin: 6;
+    }
+    
+    .projectsContainer {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    #projectOne, #projectTwo, #projectThree {
+        border: thin solid lightgray;
+        text-align: center;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px 5px rgba(0,0,0,.12);
+        margin: 6;
+      
+    }
+
+    img {
+        width: 125px;
+        height: 150px;
+        border: solid black;
+      }
+    
+    #projectName {
+        padding: 15px;
+        font-size: 25px;
+    }
+    
+    #codeNames {
+        padding:10px;
+        font-size: 12px;
+    }
+
+  }
