@@ -13,7 +13,7 @@ body {
 }
 
 
-.navContainer, .aboutMeContainer, .projectsContainer, .contactContainer {
+.navContainer, .aboutMeContainer, .contactContainer {
     display: flex; 
     justify-content: center;
     text-align: center;
@@ -130,37 +130,6 @@ button {
 }
 
 /* Projects Page*/
-#projectOne, #projectTwo, #projectThree {
-    width: 50%;
-    border: thin solid lightgray;
-    text-align: center;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px 5px rgba(0,0,0,.12);
-    margin: 6;
-  
-}
-
-img {
-    width: 225px;
-    height: 250px;
-    border: solid black;
-  }
-
-#projectName {
-    padding: 15px;
-    font-size: 25px;
-}
-
-#codeNames {
-    padding:10px;
-}
-
-
-
-/*Testing*/
-
-
 
 .repo-card-div {
     color: #586069;
@@ -237,10 +206,6 @@ img {
         margin: 6;
     }
     
-    .projectsContainer {
-        flex-wrap: wrap;
-        padding: 15px;
-    }
 
     #projectOne, #projectTwo, #projectThree {
         border: thin solid lightgray;
@@ -287,37 +252,6 @@ img {
         text-align: center;
         padding: 15px;
         margin: 6;
-    }
-    
-    .projectsContainer {
-        flex-wrap: wrap;
-        padding: 15px;
-    }
-
-    #projectOne, #projectTwo, #projectThree {
-        border: thin solid lightgray;
-        text-align: center;
-        padding: 15px;
-        border-radius: 12px;
-        box-shadow: 0 4px 10px 5px rgba(0,0,0,.12);
-        margin: 6;
-      
-    }
-
-    img {
-        width: 125px;
-        height: 150px;
-        border: solid black;
-      }
-    
-    #projectName {
-        padding: 15px;
-        font-size: 25px;
-    }
-    
-    #codeNames {
-        padding:10px;
-        font-size: 12px;
     }
 
   }
