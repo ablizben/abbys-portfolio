@@ -140,6 +140,7 @@ button {
 
 .repo-card-div:hover {
     box-shadow: 0 20px 10px 5px rgba(0,0,0,.12);
+
 }
 
 .repo-left-stat span, .repo-name-div {
@@ -180,10 +181,14 @@ button {
 
     a {
         text-decoration: none;
+        height: 100%;
+        width: 100%;
+
     }
 
     a:visited {
         color: #6a737d;
+        position: absolute; 
     }
 
 

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  //scroll to about me and skills section
     $("#moveToAboutMe").click(function() {
       $("body,html").animate(
         {
@@ -7,6 +8,7 @@ $(document).ready(function() {
         100 //speed
       );
     });
+    //scroll to projects section
     $("#moveToProjects").click(function() {
       $("body,html").animate(
         {
@@ -16,6 +18,7 @@ $(document).ready(function() {
       );
     });
   });
+  //scroll to contact section
     $("#moveToContact").click(function() {
       $("body,html").animate(
         {
@@ -24,3 +27,5 @@ $(document).ready(function() {
         100 //speed
       );
     });
+
+    
