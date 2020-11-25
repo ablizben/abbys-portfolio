@@ -121,6 +121,11 @@ button {
     margin: 6;
 }
 
+#skill1:hover, #skill2:hover,#skill3:hover,#skill4:hover,#skill5:hover,#skill6:hover,
+#skill7:hover,#skill8:hover {
+    transform: scale(1.1);
+}
+
 
 
 /*Contact Me Page*/
