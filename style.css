@@ -70,6 +70,10 @@ button:focus {
     font-size: 20px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* 3D effect on h1*/
 
 .abby {
