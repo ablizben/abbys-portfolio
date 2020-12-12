@@ -74,29 +74,6 @@ button:hover {
     cursor: pointer;
 }
 
-/* 3D effect on h1*/
-
-.abby {
-    color: black;
-    text-rendering: optimizelegibility;
-    font-weight: 700;
-    text-align: center;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease-out;
-    will-change: text-shadow;
-}
-
-
-.abby:hover {
-    transform: translate(1px, 1px);
-    color: #ffb2a4;
-    text-shadow: 0 -1px 0 #ffffff, 1px 1px 1px #666,
-        2px 2px 10px rgba(0, 0, 0, 0.15), 4px 5px 10px rgba(0, 0, 0, 0.15),
-        6px 9px 10px rgba(0, 0, 0, 0.15), 8px 15px 10px rgba(0, 0, 0, 0.15),
-        10px 20px 10px rgba(0, 0, 0, 0.15);
-}
-
-
 
 /*About Me & Skills Page*/
 
