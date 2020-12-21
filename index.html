@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="./favicon-32x32.png" />
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
 
 
 
@@ -21,263 +22,131 @@
 
     <!-- HOME/NAVIGATION PAGE -->
     <div class="navContainer">
-        <div class="col-12-md">
-            <div class="row" id="icons">
-                <a href="https://twitter.com/ablizben"><i class="fab fa-twitter fa-3x" style="color:black"
-                        id="twitter"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/ablizben"><i class="fab fa-github fa-3x" style="color:black"
-                        id="github"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://www.linkedin.com/in/abigail-benjamin-codes/"><i class="fab fa-linkedin fa-3x"
-                        style="color:black" id="linkedin"></i></a>
-            </div>
-            <div class="row">
-                <h1 class="abby">hi, I'm abby</h1>
-            </div>
-            <div class="row">
-                <p class="navDescription">I'm a developer who loves building things and watching them <span data-splitting>come to life.</span></p>
-            </div>
-            <div class="row" id="navigation">
-                <button id="moveToAboutMe">About Me &nbsp;&nbsp;<span class="line">|</span></button>
-                <button id="moveToProjects">Projects&nbsp;&nbsp; <span class="line">|</span></button>
-                <button id="moveToContact">Contact Me&nbsp;</button>
-            </div>
+        <div id ="icons">
+            <a href="https://twitter.com/ablizben"><i class="fab fa-twitter fa-3x" style="color:black"
+                id="twitter"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/ablizben"><i class="fab fa-github fa-3x" style="color:black"
+                id="github"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/abigail-benjamin-codes/"><i class="fab fa-linkedin fa-3x"
+                style="color:black" id="linkedin"></i></a>
+        </div>
+
+        <h1>hi, I'm abby</h1>
+        <p class="navDescription">I'm a developer who loves building things and watching them come to life.</p>
+        <div id="navigation">
+            <button id="moveToAboutMe">About Me &nbsp;&nbsp;</button>
+            <div class="line">|</div>
+            <button id="moveToProjects">&nbsp;&nbsp;Projects&nbsp;&nbsp;</button>
+            <div class="line">|</div>
+            <button id="moveToContact">&nbsp;&nbsp;Contact Me</button>
         </div>
     </div>
 
-
-    <!-- ABOUT ME PAGE -->
-    <div class="aboutMeContainer">
-
-        <div class="col-12-md" id="aboutMe">
-            <div class="row" id="aboutMeTitle">
-                About Me
-            </div>
-            <div class="row" id="aboutMeParagraph">
-                Hi, there! I'm a web developer that has recently graduated from a full stack web development boot camp
-                through Trilogy and Johns Hopkins University. For now, my focus is in JavaScript.
-                I'm excited to continue to learn as I dive deeper into coding.
-            </div>
-        </div>
-        <div class="col-12-md" id="skills">
-            <div class="row" id="skillsTitle">
-                Skills
-            </div>
-            <div class="col-12-sm" id="skillsLeft">
-                <div class="row" id="skill1">
-                    HTML5
-                </div>
-                <div class="row" id="skill2">
-                    CSS3
-                </div>
-                <div class="row" id="skill3">
-                    JavaScript
-                </div>
-                <div class="row" id="skill4">
-                    Node
-                </div>
-            </div>
-            <div class="col-12-sm" id="skillsRight">
-                <div class="row" id="skill5">
-                    Express
-                </div>
-                <div class="row" id="skill6">
-                    React
-                </div>
-                <div class="row" id="skill7">
-                    MySQL
-                </div>
-                <div class="row" id="skill8">
-                    MongoDB
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- PROJECT #1 -->
-    <a href="https://siminski.co/diet-search/">
-        <div class="projectsContainer">
-            <div class="repo-card-div">
-                <div class="repo-name-div">
-                    <p class="repo-name">
-                        What's On The Menu?
-                    </p>
-                </div>
-                <hr>
-                <p class="repo-description">A mobile-first application that allows you to search for chain restaurant
-                    menu items and recipes based on dietary restrictions.</p>
-                <div class="repo-stats">
-                    <div class="repo-left-stat"><span>
-                            <div class="language-color">
-                            </div>
-                            <p>HTML • CSS • JavaScript</p>
-                        </span>
-                    </div>
-                    <div class="repo-right-stat">
-                        <p><a href="https://github.com/ablizben/diet-search">Repo</a></p>
-                    </div>
-                </div>
-
-            </div>
-    </a>
-
-
-    <!-- PROJECT #2 -->
-    <a href="https://thomas-abby-dada-jessica.herokuapp.com/">
-    <div class="repo-card-div">
-        <div class="repo-name-div">
-            <p class="repo-name">
-                The Habit Tracker
-            </p>
-        </div>
+    <!-- ABOUT ME&SKILLS -->
+<div id="aboutMe-skills">
+    <div id="aboutMeSection">
+        <h2>About Me</h2>
         <hr>
-        <p class="repo-description">An application that allows the user to add and track habits they are trying to
-            create.</p>
-        <div class="repo-stats">
-            <div class="repo-left-stat"><span>
-                    <div class="language-color">
-                    </div>
-                    <p>Node • MySQL • JavaScript</p>
-                </span>
-            </div>
-            <div class="repo-right-stat">
-                <p><a href="https://github.com/ablizben/habit-tracker">Repo</a></p>
-            </div>
+        <div id="aboutMe">
+            Hi, there! I'm a full stack developer currently focused in JavaScript. 
+            I also have experience in creating mobile-first applications with the MERN Stack. 
+            I'm currently looking for an entry-level position to get my start in the tech field.
         </div>
-
     </div>
-    </a>
-
-    <!-- PROJECT #3 -->
-    <a href="https://flavor-saver-app.herokuapp.com/">
-    <div class="repo-card-div">
-        <div class="repo-name-div">
-            <p class="repo-name">
-                Flavor Saver
-            </p>
-        </div>
+    <div id="skillsSection">
+        <h2>Skills</h2>
         <hr>
-        <p class="repo-description">A mobile-first application for posting photos of your food and discovering new food,
-            restaurants, and fellow foodies around your area.</p>
-        <div class="repo-stats">
-            <div class="repo-left-stat"><span>
-                    <div class="language-color">
-                    </div>
-                    <p>MongoDB • Express • React • Node</p>
-                </span>
+        <div id="skills">
+            <div id="leftSkills">
+                <div id="skillOne">HTML5</div>
+                <div id="skillTwo">CSS3</div>
+                <div id="skillThree">JavaScript</div>
+                <div id="skillFour">Node</div>
             </div>
-            <div class="repo-right-stat">
-                <p><a href="https://github.com/ablizben/flavor-saver">Repo</a></p>
+            <div id="rightSkills">
+                <div id="skillFive">Express</div>
+                <div id="skillSix">React</div>
+                <div id="skillSeven">MySQL</div>
+                <div id="skillEight">MongoDB</div>
             </div>
         </div>
     </div>
-</a>
+</div>
 
-    <!-- PROJECT #4 -->
-    <a href="https://ablizben.github.io/employee-directory/">
-    <div class="repo-card-div">
-        <div class="repo-name-div">
-            <p class="repo-name">
-                Employee Directory
+<!-- PROJECTS -->
+<div id="projectContainer">
+    <h2>Projects</h2>
+    <hr>
+    <div class="projectCards">
+        <div class="card">
+            <div class="card-body">
+            <h5 class="card-title">The Habit Tracker</h5>
+            <p class="card-text">An application that allows the user to add and track
+                habits they are trying to create.
             </p>
-        </div>
-        <hr>
-        <p class="repo-description">An application where an employer can view non-sensitive data about their employees.
-        </p>
-        <div class="repo-stats">
-            <div class="repo-left-stat"><span>
-                    <div class="language-color">
-                    </div>
-                    <p>HTML • CSS • React </p>
-                </span>
-            </div>
-            <div class="repo-right-stat">
-                <p><a href="https://github.com/ablizben/employee-directory">Repo</a></p>
+            <h5 class="card-footer">
+                <div class="projectCode">JavaScript • Node • MySQL</div>
+                <div class="repoLink"><a href="https://github.com/ablizben/habit-tracker">Repo</a></div>
+            </h5>
             </div>
         </div>
-    </div>
-</a>
-
-    <!-- PROJECT #5 -->
-    <a href="https://fitnesstracker-01.herokuapp.com/">
-    <div class="repo-card-div">
-        <div class="repo-name-div">
-            <p class="repo-name">
-                Fitness Tracker
+        <div class="card">
+            <div class="card-body">
+            <h5 class="card-title">What's On The Menu</h5>
+            <p class="card-text">A mobile-first application that allows you to search for chain restaurant
+                menu items and recipes based on dietary restrictions.
             </p>
-        </div>
-        <hr>
-        <p class="repo-description">An application in which the user can add, view, and track their daily workouts by
-            specifics, include weights, time duration, and how many reps or sets.</p>
-        <div class="repo-stats">
-            <div class="repo-left-stat"><span>
-                    <div class="language-color" style="background-color: rgb(241, 224, 90);">
-                    </div>
-                    <p>JavaScript • Node • MongoDB </p>
-                </span>
-            </div>
-            <div class="repo-right-stat">
-                <p><a href="https://github.com/ablizben/fitness-tracker">Repo</a></p>
+            <h5 class="card-footer">
+                <div class="projectCode">HTML • CSS • JavaScript</div>
+                <div class="repoLink"><a href="https://github.com/ablizben/diet-search">Repo</a></div>
+            </h5>
             </div>
         </div>
-    </div>
-</a>
-
-    <!-- PROJECT #6 -->
-    <!-- <a href="">
-    <div class="repo-card-div">
-        <div class="repo-name-div">
-            <p class="repo-name">
-                Employee Tracker
+        <div class="card">
+            <div class="card-body">
+            <h5 class="card-title">Flavor Saver</h5>
+            <p class="card-text">A mobile-first application for posting photos of your food and discovering new food,
+                restaurants, and fellow foodies around your area.
             </p>
-        </div>
-        <hr>
-        <p class="repo-description">A database app where an employer can view and manager their departments, roles, and
-            employees.</p>
-        <div class="repo-stats">
-            <div class="repo-left-stat"><span>
-                    <div class="language-color">
-                    </div>
-                    <p>JavaScript • Express • MySQL </p>
-                </span>
+            <h5 class="card-footer">
+                <div class="projectCode">MongoDB • Express • React • Node</div>
+                <div class="repoLink"><a href="https://github.com/ablizben/flavor-saver">Repo</a></div>
+            </h5>
             </div>
-            <div class="repo-right-stat">
-                <p><a href="https://github.com/ablizben/employee-tracker">Repo</a></p>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <h5 class="card-title">Employee Directory</h5>
+            <p class="card-text">An application where an employer can view non-sensitive data about their employees.
+            </p>
+            <h5 class="card-footer">
+                <div class="projectCode">HTML • CSS • React</div>
+                <div class="repoLink"><a href="https://github.com/ablizben/employee-directory">Repo</a></div>
+            </h5>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <h5 class="card-title">Fitness Tracker</h5>
+            <p class="card-text">An application in which the user can add, view, and track their daily workouts by
+                specifics, include weights, time duration, and how many reps or sets.
+            </p>
+            <h5 class="card-footer">
+                <div class="projectCode">JavaScript • Node • MongoDB</div>
+                <div class="repoLink"><a href="https://github.com/ablizben/fitness-tracker">Repo</a></div>
+            </h5>
             </div>
         </div>
     </div>
-    </div>
-</a> -->
+</div>
 
-
-
-
-    <!-- CONTACT ME -->
-
-    <div class="contactContainer">
-        <div class="col-12-md">
-            <div class="row">
-                <h1>Contact Me!</h1>
-            </div>
-            <br>
-            <br>
-            <div class="row">
-                <strong>Email:</strong> ablizben@gmail.com
-            </div>
-            <br>
-            <div class="row">
-                <strong>Phone Number:</strong> 301-268-7697
-            </div>
-        </div>
-
-    </div>
-
-
-
+<!-- CONTACT -->
+<div id="contactContainer">
+    <h2>Contact Me!</h2>
+    <div id="email"><strong>Email:&nbsp;</strong>ablizben@gmail.com</div>
+    <div id="phoneNumber"><strong>Phone Number:&nbsp;</strong>301-268-7697</div>
+</div>
 
 
     <script src="main.js"></script>
-
-</body>
-
-</html>
+    </body>
