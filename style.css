@@ -63,6 +63,11 @@ button:focus {
 
 }
 
+button:hover {
+    font-weight: bolder;
+}
+
+
 #navigation {
     display: flex;
     justify-content: center;
