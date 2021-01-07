@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  //scroll to about me and skills section
+  //scroll to about me section
     $("#moveToAboutMe").click(function() {
       $("body,html").animate(
         {
@@ -27,8 +27,7 @@ $(document).ready(function() {
         100 //speed
       );
 
-     
     });
 
-   
-    
+
+ 

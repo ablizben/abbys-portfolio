@@ -1,0 +1,283 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+  color: #101214;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+a {
+  text-decoration: none; 
+}
+
+.navContainer,
+#contactContainer {
+  text-align: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+  /*Navigation Section*/
+
+p {
+  font-size: 1.3em;
+  color: #6a737d;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+#icons {
+  padding: 20px;
+}
+
+#twitter:hover {
+  color: #1da1f2 !important;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+#github:hover {
+  color: #2dba4e !important;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+#linkedin:hover {
+  color: #0077b5 !important;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1em;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  font-weight: bolder;
+}
+
+#navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.line {
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.contactHover:Hover {
+  color: #d2527f;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+  /*About Me Section*/
+
+#aboutMe-skills {
+  padding: 15px;
+  margin: 6;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow: auto;
+}
+
+#aboutMeSection {
+  margin: auto;
+  width: 75%;
+}
+
+#aboutMeTitle {
+  border-style: solid;
+  font-size: 10em;
+  text-align: center;
+  border: thin solid lightgray;
+  text-align: center;
+  padding: 10px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.12);
+}
+
+#aboutMeParagraph {
+  font-size: 8em;
+  padding: 20px;
+}
+
+/* Projects Section*/
+#projectContainer {
+  padding: 15px;
+  margin: 6;
+  height: 100%;
+  overflow: auto;
+}
+
+.projectCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2em;
+  padding: 50px;
+}
+
+
+.projectCards .card-body {
+background: #fff 50%;
+background-size: cover;
+border-radius: 5px;
+box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+transition: all 0.5s ease;
+}
+
+.projectCards .card-body:hover {
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all 0.3s ease;
+  transform: translate3D(0, -1px, 0);
+}
+
+.projectCards .card-body .cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+}
+
+.projectCards .card-body .cardContent a {
+  display: block;
+  color: #6a737d;
+}
+
+.projectCards .card-body .cardContent .card-title {
+  margin: 0 0 0.5em;
+  font-size: 20px;
+}
+
+.projectCards .card-body .cardContent .projectCode {
+  display: block;
+  margin-bottom: 4px;
+  color: #738a94;
+  font-size: 12px;
+  line-height: 1.15em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+
+a:visited {
+  color: #6a737d;
+  position: absolute;
+}
+
+a:hover {
+  color: #d2527f;
+}
+
+
+/*Contact Me Page*/
+
+.contactContainer {
+  padding: 20px;
+}
+
+#email:hover {
+  color: #d2527f !important;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 992px) {
+  h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-size: 40px;
+  }
+
+  #aboutMe-skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-size: 32px;
+  }
+}
+
+.container {
+  width: 150px;
+  height: 70px;
+  position: relative;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.container:hover .text {
+  opacity: 1;
+  visibility: visible;
+}
+
+.container .text {
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  opacity: 0;
+  padding: 2em;
+  position: absolute;
+  top: 0;
+  -webkit-transition: opacity 0.5s ease, visibility 0.5s;
+  transition: opacity 0.5s ease, visibility 0.5s;
+  visibility: hidden;
+  width: 100%;
+}
