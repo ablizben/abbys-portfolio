@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#moveToAboutMe").click(function() {
       $("body,html").animate(
         {
-          scrollTop: $("#aboutMe-skills").offset().top
+          scrollTop: $("#aboutMeContainer").offset().top
         },
         100 //speed
       );
