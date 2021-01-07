@@ -201,15 +201,28 @@ transition: all 0.5s ease;
   text-transform: uppercase;
 }
 
+.projectCards .card-body .cardContent .card-footer {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.projectCards .card-body .cardContent .card-footer i{
+ margin-left: 4px;
+ margin-right: 4px; 
+  
+}
+
+.projectCards .card-body .cardContent i:hover {
+  color: #6a737d !important; 
+
+}
 
 a:visited {
   color: #6a737d;
   position: absolute;
 }
 
-a:hover {
-  color: #d2527f;
-}
 
 
 /*Contact Me Page*/
