@@ -141,6 +141,7 @@ button:hover {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 2em;
   padding: 50px;
+  overflow: auto;
 }
 
 
@@ -251,32 +252,18 @@ a:visited {
     line-height: 90px;
     font-size: 32px;
   }
+
+ .aboutMeSection {
+   margin: auto;
+   width:fit-content;
+ }
+
+ .projectCards {
+  display: grid;
+  grid-template-columns: none;
+  grid-gap: 2em;
+  padding: 0;
+  overflow: auto;
+}
 }
 
-/* .container {
-  width: 150px;
-  height: 70px;
-  position: relative;
-  border: 1px solid red;
-  text-align: center;
-}
-
-.container:hover .text {
-  opacity: 1;
-  visibility: visible;
-}
-
-.container .text {
-  background-color: #fff;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  height: 100%;
-  opacity: 0;
-  padding: 2em;
-  position: absolute;
-  top: 0;
-  -webkit-transition: opacity 0.5s ease, visibility 0.5s;
-  transition: opacity 0.5s ease, visibility 0.5s;
-  visibility: hidden;
-  width: 100%;
-} */
