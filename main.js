@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#moveToAboutMe").click(function() {
       $("body,html").animate(
         {
-          scrollTop: $("#aboutMeContainer").offset().top
+          scrollTop: $(".aboutMeContainer").offset().top
         },
         100 //speed
       );
@@ -12,7 +12,7 @@ $(document).ready(function() {
     $("#moveToProjects").click(function() {
       $("body,html").animate(
         {
-          scrollTop: $("#projectContainer").offset().top
+          scrollTop: $(".projectContainer").offset().top
         },
         100 //speed
       );
@@ -22,7 +22,7 @@ $(document).ready(function() {
     $("#moveToContact").click(function() {
       $("body,html").animate(
         {
-          scrollTop: $("#contactContainer").offset().top
+          scrollTop: $(".contactContainer").offset().top
         },
         100 //speed
       );

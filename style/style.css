@@ -1,3 +1,5 @@
+/*Global Styling*/ 
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -14,7 +16,7 @@ a {
 }
 
 .navContainer,
-#contactContainer {
+.contactContainer {
   text-align: center;
   height: 100%;
   display: -webkit-box;
@@ -103,7 +105,7 @@ button:hover {
 
   /*About Me Section*/
 
-#aboutMeContainer {
+.aboutMeContainer {
   padding: 15px;
   margin: 6;
   height: 100%;
@@ -120,30 +122,14 @@ button:hover {
   overflow: auto;
 }
 
-#aboutMeSection {
+.aboutMeSection {
   margin: auto;
   width: 75%;
 }
 
-#aboutMeTitle {
-  border-style: solid;
-  font-size: 10em;
-  text-align: center;
-  border: thin solid lightgray;
-  text-align: center;
-  padding: 10px;
-  border-radius: 12px;
-  -webkit-box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.12);
-  box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.12);
-}
-
-#aboutMeParagraph {
-  font-size: 8em;
-  padding: 20px;
-}
-
 /* Projects Section*/
-#projectContainer {
+
+.projectContainer {
   padding: 15px;
   margin: 6;
   height: 100%;
@@ -247,7 +233,7 @@ a:visited {
     font-size: 40px;
   }
 
-  #aboutMe-skills {
+  .aboutMeContainer{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -267,7 +253,7 @@ a:visited {
   }
 }
 
-.container {
+/* .container {
   width: 150px;
   height: 70px;
   position: relative;
@@ -293,4 +279,4 @@ a:visited {
   transition: opacity 0.5s ease, visibility 0.5s;
   visibility: hidden;
   width: 100%;
-}
+} */
