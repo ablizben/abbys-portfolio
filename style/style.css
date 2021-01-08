@@ -1,4 +1,4 @@
-/*Global Styling*/ 
+/*Global Styling*/
 
 html {
   scroll-behavior: smooth;
@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .navContainer,
@@ -32,7 +32,7 @@ a {
   overflow: auto;
 }
 
-  /*Navigation Section*/
+/*Navigation Section*/
 
 p {
   font-size: 1.3em;
@@ -103,7 +103,7 @@ button:hover {
   transition: color 0.5s;
 }
 
-  /*About Me Section*/
+/*About Me Section*/
 
 .aboutMeContainer {
   padding: 15px;
@@ -146,11 +146,11 @@ button:hover {
 
 
 .projectCards .card-body {
-background: #fff 50%;
-background-size: cover;
-border-radius: 5px;
-box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-transition: all 0.5s ease;
+  background: #fff 50%;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all 0.5s ease;
 }
 
 .projectCards .card-body:hover {
@@ -191,17 +191,17 @@ transition: all 0.5s ease;
 .projectCards .card-body .cardContent .card-footer {
   display: flex;
   flex-direction: row;
-  
+
 }
 
-.projectCards .card-body .cardContent .card-footer i{
- margin-left: 4px;
- margin-right: 4px; 
-  
+.projectCards .card-body .cardContent .card-footer i {
+  margin-left: 4px;
+  margin-right: 4px;
+
 }
 
 .projectCards .card-body .cardContent i:hover {
-  color: #6a737d !important; 
+  color: #6a737d !important;
 
 }
 
@@ -234,14 +234,27 @@ a:visited {
     font-size: 40px;
   }
 
-  .aboutMeContainer{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+  .aboutMeSection {
+    margin: auto;
+    width: fit-content;
+    font-size: smaller;
+  }
+
+  .projectCards {
+    display: grid;
+    grid-template-columns: none;
+    grid-gap: 2em;
+    padding: 0;
+    overflow: visible;
+  }
+
+  .projectContainer {
+    overflow: visible;
+  }
+
+  .contactContainer {
+    padding: 20px;
+    margin-top: 1200px;
   }
 }
 
@@ -253,17 +266,26 @@ a:visited {
     font-size: 32px;
   }
 
- .aboutMeSection {
-   margin: auto;
-   width:fit-content;
- }
+  .aboutMeSection {
+    margin: auto;
+    width: fit-content;
+    font-size: smaller;
+  }
 
- .projectCards {
-  display: grid;
-  grid-template-columns: none;
-  grid-gap: 2em;
-  padding: 0;
-  overflow: auto;
-}
-}
+  .projectCards {
+    display: grid;
+    grid-template-columns: none;
+    grid-gap: 2em;
+    padding: 0;
+    overflow: visible;
+  }
 
+  .projectContainer {
+    overflow: visible;
+  }
+
+  .contactContainer {
+    padding: 20px;
+    margin-top: 1200px;
+  }
+}
