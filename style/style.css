@@ -145,7 +145,7 @@ button:hover {
 }
 
 
-.projectCards .card-body {
+.projectCards .cardBody {
   background: #fff 50%;
   background-size: cover;
   border-radius: 5px;
@@ -153,13 +153,13 @@ button:hover {
   transition: all 0.5s ease;
 }
 
-.projectCards .card-body:hover {
+.projectCards .cardBody:hover {
   box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
   transition: all 0.3s ease;
   transform: translate3D(0, -1px, 0);
 }
 
-.projectCards .card-body .cardContent {
+.projectCards .cardBody .cardContent {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -167,17 +167,17 @@ button:hover {
   padding: 20px;
 }
 
-.projectCards .card-body .cardContent a {
+.projectCards .cardBody .cardContent a {
   display: block;
   color: #6a737d;
 }
 
-.projectCards .card-body .cardContent .card-title {
+.projectCards .cardBody .cardContent .cardTitle {
   margin: 0 0 0.5em;
   font-size: 20px;
 }
 
-.projectCards .card-body .cardContent .projectCode {
+.projectCards .cardBody .cardContent .projectCode {
   display: block;
   margin-bottom: 4px;
   color: #738a94;
@@ -188,19 +188,19 @@ button:hover {
   text-transform: uppercase;
 }
 
-.projectCards .card-body .cardContent .card-footer {
+.projectCards .cardBody .cardContent .cardFooter {
   display: flex;
   flex-direction: row;
 
 }
 
-.projectCards .card-body .cardContent .card-footer i {
+.projectCards .cardBody .cardContent .cardFooter i {
   margin-left: 4px;
   margin-right: 4px;
 
 }
 
-.projectCards .card-body .cardContent i:hover {
+.projectCards .cardBody .cardContent i:hover {
   color: #6a737d !important;
 
 }
