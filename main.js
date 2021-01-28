@@ -1,33 +1,27 @@
-$(document).ready(function() {
+$(document).ready(function () {
   //scroll to about me section
-    $("#moveToAboutMe").click(function() {
-      $("body,html").animate(
-        {
-          scrollTop: $(".aboutMeContainer").offset().top
-        },
-        100 //speed
-      );
-    });
-    //scroll to projects section
-    $("#moveToProjects").click(function() {
-      $("body,html").animate(
-        {
-          scrollTop: $(".projectContainer").offset().top
-        },
-        100 //speed
-      );
-    });
+  $("#move-to-about-me").click(function () {
+    $("body,html").animate({
+        scrollTop: $(".about-me-container").offset().top
+      },
+      100 //speed
+    );
   });
-  //scroll to contact section
-    $("#moveToContact").click(function() {
-      $("body,html").animate(
-        {
-          scrollTop: $(".contactContainer").offset().top
-        },
-        100 //speed
-      );
+  //scroll to projects section
+  $("#move-to-projects").click(function () {
+    $("body,html").animate({
+        scrollTop: $(".project-container").offset().top
+      },
+      100 //speed
+    );
+  });
+});
+//scroll to contact section
+$("#move-to-contact").click(function () {
+  $("body,html").animate({
+      scrollTop: $(".contact-container").offset().top
+    },
+    100 //speed
+  );
 
-    });
-
-
- 
+});
