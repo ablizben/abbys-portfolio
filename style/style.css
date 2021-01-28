@@ -8,15 +8,15 @@ html {
 body {
   background-color: white;
   color: #101214;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-.navContainer,
-.contactContainer {
+.nav-container,
+.contact-container {
   text-align: center;
   height: 100%;
   display: -webkit-box;
@@ -68,7 +68,7 @@ h1 {
 button {
   background: none;
   border: none;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 1em;
 }
 
@@ -97,7 +97,7 @@ button:hover {
   cursor: pointer;
 }
 
-.contactHover:Hover {
+.contactHover:hover {
   color: #d2527f;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
@@ -105,7 +105,7 @@ button:hover {
 
 /*About Me Section*/
 
-.aboutMeContainer {
+.about-me-container {
   padding: 15px;
   margin: 6;
   height: 100%;
@@ -122,20 +122,20 @@ button:hover {
   overflow: auto;
 }
 
-.aboutMeSection {
+.about-me-section {
   margin: auto;
   width: 75%;
 }
 
 /* Projects Section*/
 
-.projectContainer {
+.project-container {
   padding: 15px;
   margin: 6;
   height: 100%;
 }
 
-.projectCards {
+.project-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 2em;
@@ -143,22 +143,24 @@ button:hover {
   overflow: auto;
 }
 
-
-.projectCards .cardBody {
+.project-cards .card-body {
   background: #fff 50%;
   background-size: cover;
   border-radius: 5px;
-  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-  transition: all 0.5s ease;
+  /* box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03); */
+  /* transition: all 0.5s ease; */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-.projectCards .cardBody:hover {
-  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-  transition: all 0.3s ease;
+.project-cards .card-body:hover {
+  /* box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07); */
+  /* transition: all 0.3s ease; */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: translate3D(0, -1px, 0);
 }
 
-.projectCards .cardBody .cardContent {
+.project-cards .card-body .card-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -166,17 +168,17 @@ button:hover {
   padding: 20px;
 }
 
-.projectCards .cardBody .cardContent a {
+.project-cards .card-body .card-content a {
   display: block;
   color: #6a737d;
 }
 
-.projectCards .cardBody .cardContent .cardTitle {
+.project-cards .card-body .card-content .card-title {
   margin: 0 0 0.5em;
   font-size: 20px;
 }
 
-.projectCards .cardBody .cardContent .projectCode {
+.project-cards .card-body .card-content .project-code {
   display: block;
   margin-bottom: 4px;
   color: #738a94;
@@ -187,21 +189,18 @@ button:hover {
   text-transform: uppercase;
 }
 
-.projectCards .cardBody .cardContent .cardFooter {
+.project-cards .card-body .card-content .card-footer {
   display: flex;
   flex-direction: row;
-
 }
 
-.projectCards .cardBody .cardContent .cardFooter i {
+.project-cards .card-body .card-content .card-footer i {
   margin-left: 4px;
   margin-right: 4px;
-
 }
 
-.projectCards .cardBody .cardContent i:hover {
+.project-cards .card-body .card-content i:hover {
   color: #6a737d !important;
-
 }
 
 a:visited {
@@ -209,11 +208,9 @@ a:visited {
   position: absolute;
 }
 
-
-
 /*Contact Me Page*/
 
-.contactContainer {
+.contact-container {
   padding: 20px;
 }
 
@@ -233,13 +230,13 @@ a:visited {
     font-size: 40px;
   }
 
-  .aboutMeSection {
+  .about-me-section {
     margin: auto;
     width: fit-content;
     font-size: smaller;
   }
 
-  .projectCards {
+  .project-cards {
     display: grid;
     grid-template-columns: none;
     grid-gap: 2em;
@@ -247,11 +244,11 @@ a:visited {
     overflow: visible;
   }
 
-  .projectContainer {
+  .project-container {
     overflow: visible;
   }
 
-  .contactContainer {
+  .contact-container {
     padding: 20px;
     margin-top: 1200px;
   }
@@ -265,13 +262,13 @@ a:visited {
     font-size: 32px;
   }
 
-  .aboutMeSection {
+  .about-me-section {
     margin: auto;
     width: fit-content;
     font-size: smaller;
   }
 
-  .projectCards {
+  .project-cards {
     display: grid;
     grid-template-columns: none;
     grid-gap: 2em;
@@ -279,11 +276,11 @@ a:visited {
     overflow: visible;
   }
 
-  .projectContainer {
+  .project-container {
     overflow: visible;
   }
 
-  .contactContainer {
+  .contact-container {
     padding: 20px;
     margin-top: 1200px;
   }
