@@ -77,7 +77,8 @@ button:focus {
 }
 
 button:hover {
-  font-weight: bolder;
+  /* font-weight: bolder; */
+  color: #6a737d;
 }
 
 #navigation {
@@ -197,6 +198,11 @@ button:hover {
 #project-cards .card-body .card-content .card-footer i {
   margin-left: 4px;
   margin-right: 4px;
+}
+
+fa-github:before {
+  content: "\f09b";
+  margin-left: -20px;
 }
 
 #project-cards .card-body .card-content i:hover {
