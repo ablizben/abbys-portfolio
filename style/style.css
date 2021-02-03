@@ -193,6 +193,7 @@ button:hover {
 #project-cards .card-body .card-content .card-footer {
   display: flex;
   flex-direction: row;
+  padding: 5px;
 }
 
 #project-cards .card-body .card-content .card-footer i {
@@ -200,9 +201,8 @@ button:hover {
   margin-right: 4px;
 }
 
-fa-github:before {
-  content: "\f09b";
-  margin-left: -20px;
+#project-cards .card-body .card-content .card-footer #repoLink {
+  margin-left: -15px;
 }
 
 #project-cards .card-body .card-content i:hover {
