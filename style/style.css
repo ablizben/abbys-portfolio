@@ -302,14 +302,16 @@ nav {
   display: flex;
   opacity: 1;
   position: sticky;
-  top: 0;
+  top: 55;
   left: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
-  height: 100vh;
+  height: 85vh;
   font-weight: 700;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
 
 nav a {

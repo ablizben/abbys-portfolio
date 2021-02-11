@@ -2,6 +2,8 @@ window.onscroll = function () {
   scrollFunction()
 };
 
+
+//nav bar appearing only after scroll
 function scrollFunction() {
   if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 20) {
     document.querySelector(".menu-trigger").style.top = "0";
@@ -40,11 +42,15 @@ $("#move-to-contact").click(function () {
 
 
 
-
-
-
-//testing nav bar hamburger menu / bar icon * /
+//nav bar hamburger menu 
 $(".menu-trigger").on('click', function () {
   $('nav').toggleClass("open");
   $(this).toggleClass("icon-active");
+  console.log(this);
+});
+
+//exits out of nav menu after clicking on destination
+$('.close-menu-nav').on('click', function () {
+  $('nav').toggleClass("open");
+  $('.menu-trigger').toggleClass("icon-active");
 });
