@@ -220,6 +220,14 @@ button:hover {
   width: 75%;
 }
 
+#resume {
+  color: #d2527f;
+}
+
+#resume:visited {
+  color: #d2527f;
+}
+
 /* Projects Section*/
 
 #project-container {
