@@ -141,20 +141,14 @@ h1 {
 
 #twitter:hover {
   color: #1da1f2 !important;
-  -webkit-transition: color 1s;
-  transition: color 1s;
 }
 
 #github:hover {
   color: #2dba4e !important;
-  -webkit-transition: color 1s;
-  transition: color 1s;
 }
 
 #linkedin:hover {
   color: #0077b5 !important;
-  -webkit-transition: color 1s;
-  transition: color 1s;
 }
 
 button {
