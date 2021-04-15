@@ -2,7 +2,6 @@ window.onscroll = function () {
   scrollFunction()
 };
 
-
 //nav bar appearing only after scroll
 function scrollFunction() {
   if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 20) {
@@ -11,8 +10,6 @@ function scrollFunction() {
     document.querySelector(".menu-trigger").style.top = "-50px";
   }
 }
-
-
 
 //scroll to about me section
 $("#move-to-about-me").click(function () {
@@ -39,7 +36,6 @@ $("#move-to-contact").click(function () {
     100 //speed
   );
 });
-
 
 
 //nav bar hamburger menu 
