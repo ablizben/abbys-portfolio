@@ -9,6 +9,10 @@ body {
   background-color: white;
   color: #101214;
   font-family: "Kumbh Sans", sans-serif;
+}
+
+html,
+body {
   height: 100%;
 }
 
